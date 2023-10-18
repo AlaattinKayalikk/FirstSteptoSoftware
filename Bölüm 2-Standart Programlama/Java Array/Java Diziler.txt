@@ -1,0 +1,28 @@
+-Diziler, her değer için ayrı değişkenler bildirmek yerine birden fazla değeri tek bir değişkende depolamak için kullanılır.
+
+Bir dizi bildirmek için değişken türünü köşeli parantezler ile tanımlayın:
+
+String[] arabalar;
+
+-Artık bir dizi dizeyi tutan bir değişken tanımladık. Değer eklemek için değerleri süslü parantezlerin içine virgülle ayrılmış bir listeye yerleştirebilirsiniz:
+
+String[] arabalar = {"Volvo", "BMW", "Ford", "Mazda"};
+
+-Bir tam sayı dizisi oluşturmak için şunu yazabilirsin.
+int [] numaralar  = {10,20,30,40};
+
+-Bir Dizinin Elemanlarına Erişim
+String[] arabalar = {"Volvo","BMW","Fiat"};
+System.out.println(arabalar[0]);
+//Ekran çıktısı --> Volvo
+
+-Dizi Öğesini Değiştirme
+String[] arabalar = {"BMW","Ford"};
+arabalar[1] = "Opel";
+System.out.println(arabalar[1]);
+//Ekran çıktısı --> Opel
+
+-Dizi uzunluğunu öğrenme(Dizide kaç eleman var?)
+String [] sayilar = {1,2,3,4,5}
+System.out.println(sayilar.length);
+//Ekran çıktısı --> 5
