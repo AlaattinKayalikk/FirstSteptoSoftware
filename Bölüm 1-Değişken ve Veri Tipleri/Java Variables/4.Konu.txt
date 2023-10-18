@@ -1,0 +1,11 @@
+String birleştirme
+
+-Hem metni hem de değişkeni birleştirmek için + karakterini kullanın:
+
+String isim = "Kayalık";
+System.out.println("Alaattin" + isim);
+
+String isim = "Alaattin";
+String soyİsim = "Kayalık";
+String tamAdi = isim+soyİsim;
+System.out.println(tamAdi);

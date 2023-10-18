@@ -1,0 +1,30 @@
+Java Tipi Döküm
+-Tür atama, bir temel veri türünün değerini başka bir türe atadığınız zamandır.
+
+Java'da iki tür döküm vardır:
+
+-Dökümü Genişletme (otomatik olarak) - daha küçük bir türü daha büyük bir yazı boyutuna dönüştürme
+bayt - kısa - karakter - int - uzun - kayan nokta - çift
+
+-Daraltma Döküm (manuel olarak) - daha büyük bir türü daha küçük boyutlu bir türe dönüştürme
+double - float - long - int - char - short - byte
+
+Genişletme Dökümü Örnek;
+
+    public static void main(String args[]){
+        int sayi = 9;
+        double yeniSayi = sayi;
+        System.out.println(sayi);       //Ekran Çıktısı --> 9
+        System.out.println(yeniSayi);   //Ekran Çıktısı --> 9.0
+    }
+
+Daraltma Dökümü Örnek;
+
+    public static void main(String args[]){
+            double sayi = 9.79;
+            int yeniSayi = (int)sayi;
+            System.out.println(sayi);       //9.79
+            System.out.println(yeniSayi);   //9
+    }
+
+	

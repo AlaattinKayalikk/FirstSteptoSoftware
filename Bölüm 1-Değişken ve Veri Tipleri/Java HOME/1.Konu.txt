@@ -1,0 +1,31 @@
+Java hakkında genel bilgiler;
+-Java, 1995 yılında Sun Microsystems tarafından yayınlanmış bir hesaplama platformu ve programlama dilidir. Basit başlangıçlar ile ortaya çıkmıştır ve birçok hizmet ve uygulamanın oluşturulduğu güvenilir platformu sağladığı için bugünün dijital dünyasında en büyük paya sahiptir.
+
+Çalışma mantığı
+Bir Java yazılımı şu şekilde geliştirilir;
+-Yazılımcı Java kodunu yazar.
+-Bu kod bir Java derleyicisi ile derlenir. Derleme sonucunda "bytecode" adı verilen bir tür sanal makine kodu ortaya çıkar. Platform bağımsızlığını sağlayan bytecode'dur. Çünkü bir kere bytecode oluştuktan sonra yazılım, sanal makine içeren tüm işletim sistemlerinde çalışabilmektedir.
+-Bu bytecode Java Sanal Makinesi (Java Virtual Machine - JVM) tarafından işletilir. Bu aşama, her bir bytecode komutunun teker teker yorumlanması ile icra edilebileceği gibi, anında derleme (Just-in-time compilation - JIT) kullanılarak da gerçekleştirilebilir.
+
+Java yazımı (Sözdizimi)
+-Sınıf temelli nesneye yönelik bir dil olan Java, yazım olarak C++ ile benzerlikler arz eder. Java'nın yanında C#, Perl, JavaScript gibi diller de aynı dil ailesine aittir. "{}" şeklinde süslü parantezler içerisindeki bloklar, ++ arttırma ve — azaltma işleçleri bu dilin belirgin özelliklerindendir.
+
+Örnek;
+ 
+ public class MerhabaDünya{
+     public static void main(String[] args) {
+         System.out.println("Merhaba Dünya!");
+     }
+ }
+
+-"MerhabaDünya.java" ile "public class MerhabaDünya" bu kısımda iki isim aynı olmalıdır aksi takdirde uygulama çalıştırılamaz.
+-class: Sınıf tanımlayabilmek için class ön eki şarttır.
+-public: Sınıfın dışarıdan erişebilir olduğu,
+-static: Sınıf tarafından paylaşıldığı,
+-void: Bir değer döndürmediği anlamına gelir.
+-Public ve Static'e erişim belirleyicisi (access specifier) de denir.
+-Void'e dönüş tipi (return type) de denir.
+-String args[]: Parantezin içinde yöntemin aldığı parametreleri belirleriz. "String" sınıf adı, "args" da parametre adıdır. "[]" ise args'ın bir dizi (array) olduğunu belirtiyor.
+-"System.out.println();" ile yazımızı yazdırıyoruz ve yeni satıra geçmesini sağlıyoruz.
+-Yazımızı "System.out.print("Merhaba Dunya!");" ile de yazdırabilirdik. Fakat imleç yeni satıra geçmezdi.
+-Java Türkçe karakterleri (C# gibi) "değişken adlarında, sınıf adlarında" da kullanmamıza imkân tanır.

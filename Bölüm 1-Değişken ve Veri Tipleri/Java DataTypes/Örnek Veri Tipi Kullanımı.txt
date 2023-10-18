@@ -1,0 +1,16 @@
+Java'da örnek veri tipi kullanımı;   
+
+public static void main(String args[]){
+        byte byteOrnek = 120;
+        System.out.println("Byte örnek : "+byteOrnek);       //Ekran çıktısı -- > 120
+        short shortOrnek = 1200;
+        System.out.println("Short örnek : "+shortOrnek);     //Ekran çıktısı -- > 1200
+        int intOrnek = 12000;
+        System.out.println("İnt Örnek : "+intOrnek);         //Ekran çıktısı -- > 12000
+        double doubleOrnek = 120.0;
+        System.out.println("Double Örnek : "+doubleOrnek);   //Ekran çıktısı -- > 120.0
+        float floatOrnek = 1200.0f;
+        System.out.println("Float Örnek : "+floatOrnek);     //Ekran çıktısı -- > 1200.0
+        long longOrnek = 120000;
+        System.out.println("Long Örnek : "+longOrnek);       //Ekran çıktısı -- > 120000
+}

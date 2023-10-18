@@ -1,0 +1,23 @@
+Java programlama dilinde değişkenler
+
+-Değişkenler veri değerlerini depolamak için kullanılan kaplardır.
+
+String - 'Merhaba' gibi metinleri saklar. Dize değerleri çift tırnak içine alınır
+int - 123 veya -123 gibi ondalık sayılar olmadan tam sayıları (tam sayılar) saklar
+float - 19,99 veya -19,99 gibi ondalık sayılarla kayan nokta sayılarını saklar
+char - 'a' veya 'B' gibi tek karakterleri saklar. Char değerleri tek tırnak içine alınır
+boolean - değerleri iki durumla saklar: doğru veya yanlış
+
+-Bir değişken oluşturmak için türü belirtmeli ve ona bir değer atamalısınız:
+
+type değişkenAdı = değer;
+
+Örnek olarak;
+
+-String türünde isim değişkeni oluşturduk ve ona "Kayalık" değerini atadık. Daha sonra ekran çıktısı alabilmek için kodumuzu yazdık.
+String isim = "Kayalık"
+System.out.println(isim);  Ekran çıktısı --> Kayalık
+
+-İnt türünde sayı değişkeni oluşturduk ve ona "15" değerini atadık.
+İnt sayi = 15
+System.out.println(sayi);	Ekran çıktısı --> 15

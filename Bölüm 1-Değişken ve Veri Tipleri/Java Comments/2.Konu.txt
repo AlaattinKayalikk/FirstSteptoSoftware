@@ -1,0 +1,9 @@
+-Yorumlar Java kodunu açıklamak ve onu daha okunaklı hale getirmek için kullanılabilir. Alternatif kodu test ederken yürütmeyi önlemek için de kullanılabilir.
+
+Tek satırlı Yorumlar
+-Tek satırlık yorumlar iki eğik çizgiyle (//) başlar.
+- // ile satırın sonu arasındaki metinler Java tarafından dikkate alınmaz (yürütülmez).
+
+Çok Satırlı Yorumlar
+-Çok satırlı açıklamalar /* ile başlar ve */ ile biter.
+-/* ile */ arasındaki herhangi bir metin Java tarafından göz ardı edilecektir.

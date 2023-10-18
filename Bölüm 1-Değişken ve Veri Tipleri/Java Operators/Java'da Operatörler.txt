@@ -1,0 +1,22 @@
+Atama operatörleri değişkenlere değer atamak için kullanılır.
+
+-Aşağıdaki örnekte, x adlı bir değişkene 10 değerini atamak için atama operatörünü (=) kullanıyoruz:
+int x = 10;
+
+-Toplama atama operatörü (+=) bir değişkene değer ekler:
+int x = 10;
+x += 5;
+
+-Tüm atama operatörlerinin listesi:
+
+=		x = 5		x = 5	
++=		x += 3		x = x + 3	
+-=		x -= 3		x = x - 3	
+*=		x *= 3		x = x * 3	
+/=		x /= 3		x = x / 3	
+%=		x %= 3		x = x % 3	
+&=		x &= 3		x = x & 3	
+|=		x |= 3		x = x | 3	
+^=		x ^= 3		x = x ^ 3	
+>>=		x >>= 3		x = x >> 3	
+<<=		x <<= 3		x = x << 3
