@@ -1,0 +1,36 @@
+Java Koşulları ve If İfadeleri:
+
+-Şundan az: a<b
+-Küçük veya eşittir: a <= b
+-Şundan büyük: a>b
+-Büyük veya eşittir: a >= b
+-a == b'ye eşit
+-Eşit Değil: a != b
+
+-Aşağıdaki örnekte, 20'nin 18'den büyük olup olmadığını öğrenmek için iki değeri test ediyoruz. Koşul doğruysa bir miktar metin yazdırın:
+
+if(20>18){
+System.out.println("20 sayısı 18'den büyüktür.");
+}
+
+-Değişkenleri de test edebiliriz:
+
+int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x sayısı y sayısından büyüktür.");
+}else{
+  System.out.println("y sayısı x sayısından büyüktür.");
+}
+
+-İlk koşulun yanlış olması durumunda yeni bir koşulu belirtmek için else if ifadesini kullanın.
+
+int zaman = 22;
+if (zaman < 10) {
+  System.out.println("Günaydın.");
+} else if (zaman < 18) {
+  System.out.println("İyi Günler.");
+} else {
+  System.out.println("İyi geceler.");
+}
+// Outputs "İyi geceler."
