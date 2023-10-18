@@ -1,0 +1,15 @@
+Bir Dizi İçinde Döngü
+-For döngüsüyle dizi öğeleri arasında döngü yapabilir ve döngünün kaç kez çalışması gerektiğini belirtmek için uzunluk özelliğini kullanabilirsiniz.
+
+String[] ilceBilgisi = {"İstanbul","Ankara","Bartın"}
+for(int i=0; i<ilceBilgisi.length; i++){
+System.out.println(ilceBilgisi[i])
+}
+
+For-Each ile Bir Dizi İçinde Döngü
+-Ayrıca, yalnızca dizilerdeki öğeler arasında geçiş yapmak için kullanılan bir 'her biri için' döngüsü de vardır:
+
+String[] ilceBilgisi = {"İstanbul","Ankara","Bartın"}
+for(String ilce:ilceBilgisi){
+System.out.println(ilce);
+}

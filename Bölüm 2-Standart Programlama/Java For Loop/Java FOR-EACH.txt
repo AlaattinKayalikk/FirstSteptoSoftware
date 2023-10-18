@@ -1,0 +1,8 @@
+Java'da bir dizinin tüm elemanlarına ulaşmak için kullanılır : 
+
+
+        String isimler[] = {"Ahmet","Ali","Ayşe"};
+
+        for (String isim:isimler){ 		//isimler dizisindeki elemanlar "isim" değişkenine aktarılır.
+            System.out.println(isim);		//Aktardığımız değişkeni yazdırabiliriz.
+        }

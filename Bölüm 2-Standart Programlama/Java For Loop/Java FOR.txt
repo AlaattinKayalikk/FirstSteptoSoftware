@@ -1,0 +1,26 @@
+Java'da For döngüsü:
+
+Bir kod bloğunda tam olarak kaç kez döngü yapmak istediğinizi bildiğinizde, while döngüsü yerine for döngüsünü kullanın:
+
+Örnek; 
+Aşağıdaki örnekte 0'dan 4'e kadar olan sayılar yazdırılacaktır:
+
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+
+Bu örnek yalnızca 0 ile 10 arasındaki çift değerleri yazdıracaktır:
+for (int i = 0; i <= 10; i = i + 2) {
+  System.out.println(i);
+}
+
+İç içe java döngüsü örnekleri: 
+	
+        for (int i=0; i<=2; i++){	//Dış döngü
+            System.out.println(i+1+" .İ değeri : "+i);
+            for (int j=0;j<=3;j++){	//İç döngü
+                System.out.println(j+1+" .J değeri : "+j);
+            }
+        }
+
+
