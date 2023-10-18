@@ -1,0 +1,50 @@
+Çok sayıda if..else ifadesi yazmak yerine switch ifadesini kullanabilirsiniz.
+
+Switch ifadesi yürütülecek birçok kod bloğundan birini seçer:
+
+Bu nasıl çalışır:
+
+-Switch ifadesi bir kez değerlendirilir.
+-İfadenin değeri her bir durumun değerleriyle karşılaştırılır.
+-Bir eşleşme varsa ilgili kod bloğu yürütülür.
+-Break ve default anahtar sözcükleri isteğe bağlıdır ve bu bölümün ilerleyen kısımlarında açıklanacaktır.
+-Aşağıdaki örnekte haftanın günü adını hesaplamak için haftanın günü sayısı kullanılmaktadır:
+
+int day = 4;
+
+switch(day){
+ case 1:
+	System.out.println("Pazartesi");
+	break;
+ case 2:
+	System.out.println("Salı");
+	break;
+ case 3:
+	System.out.println("Çarşamba");
+	break;
+ case 4:
+	System.out.println("Perşembe");
+	break;
+ case 5:
+	System.out.println("Cuma");
+	break;
+}
+
+//Outputs "Perşembe"
+
+-Java "default" tanımı: 
+
+int day = 4;
+
+switch(day){
+ case 1:
+	System.out.println("Pazartesi");
+	break;
+ case 2:
+	System.out.println("Salı");
+	break;
+ default:
+	System.out.println("Böyle bir gün bulunamamaktadır.");
+}
+
+//Outputs "Böyle bir gün bulunamamaktadır."
