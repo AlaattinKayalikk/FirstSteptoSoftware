@@ -1,0 +1,31 @@
+Java Sınıfları/Nesneleri
+
+Java nesne yönelimli bir programlama dilidir.
+
+Java'daki her şey, nitelikleri ve yöntemleriyle birlikte sınıflar ve nesnelerle ilişkilidir. Örneğin: gerçek hayatta araba bir nesnedir. Arabanın ağırlık ve renk gibi nitelikleri, sürüş ve fren gibi yöntemleri vardır.
+
+Class oluşturma:
+
+    public class Araba {
+    	String arabaModeli = "Ford-Mustang";
+    }
+
+Nesne oluşturma:
+
+Bir sınıfı main içerisinde çalıştırabilmemiz için, new anahtar sözcüğünü kullanmamız gerekmektedir.
+
+    public static void main(String[] args) {
+        Araba araba = new Araba();
+        System.out.println("Arabanın modeli : "+araba.arabaModeli);
+    }
+
+Çoklu Nesneler:
+
+Bir sınıftan birden fazla nesne oluşturabilirsiniz.
+
+    public static void main(String[] args) {
+        Araba araba = new Araba();
+	Araba araba2 = new Araba();
+        System.out.println("Arabanın modeli : "+araba.arabaModeli);
+	System.out.println("Arabanın modeli : "+araba2.arabaModeli)
+    }

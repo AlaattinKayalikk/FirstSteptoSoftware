@@ -1,0 +1,21 @@
+sMethod
+
+- Method, yalnızca çağırıldığında çalışan bir kod bloğudur.
+- Methodlar neden kullanılmalı? . Kodu yeniden kullanmak için: Kodu bir kez tanımlayın ve birçok kez kullanın.
+
+Method oluşturma;
+
+public class Methods {
+  static void myMethod() {
+    System.out.println("Merhaba Method")// Çalıştırılacak kod
+  }
+}
+
+Method çağırma;
+
+public static void main(String args[]){
+	Methods method = new Methods();
+	method.myMethod();
+	method.myMethod(); // Bir method birden çok kez de çağırılabilir.
+	method.myMethod();	
+}

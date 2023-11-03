@@ -1,0 +1,15 @@
+Java Modifiers
+
+-public class Main-
+
+Public anahtar sözcüğü bir erişim değiştiricidir; yani sınıflar, nitelikler, yöntemler ve yapıcılar için erişim düzeyini ayarlamak için kullanılır.
+
+
+Erişim Değiştiricileri
+public : Koda tüm sınıflar erişebilir.
+private : Koda yalnızca belirtilen sınıf içinden erişilebilir.
+protected : Koda aynı paket ve alt sınıflardan erişilebilir.
+
+Erişim Dışı Değiştiriciler
+final : Sınıf diğer sınıflar tarafından miras alınamaz.
+abstract : Sınıf, nesneler oluşturmak için kullanılamaz.

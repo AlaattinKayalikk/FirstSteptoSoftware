@@ -1,0 +1,29 @@
+Java Sınıfı Metodları
+
+
+Sınıf içerisinde metod oluşturma : 
+
+public class Ogretmen {
+	static void ogrenciSayisi()
+	{
+		System.out.println("Öğrenci sayısı : 50")
+	}
+}
+
+Main içerisinde Ogretmen sınıfı içerisindeki metodu çağırma : 
+
+public static void main(String args[]) {
+	ogrenciSayisi();
+}
+
+---------------------
+Bir Nesneyle Erişim Yöntemleri
+
+    public void arabaFiyat(int fiyat){
+        System.out.println("Arabanın fiyati : "+fiyat);
+    }
+    
+    public static void main(String[] args) {
+        Araba araba = new Araba();
+        araba.arabaFiyat(500000);
+    }

@@ -1,0 +1,24 @@
+Java Sınıfı Nitelikleri
+
+Niteliklere, sınıfın bir nesnesini oluşturarak ve nokta sözdizimini (.) kullanarak erişebilirsiniz:
+
+Örnek : 'myObj' adında bir nesne oluşturun ve x'in değerini yazdırın:
+
+public class MyObj {
+    int x = 5;
+}
+    
+public static void main(String[] args) {
+    MyObj myObj = new MyObj();
+    myObj.x = 20; //x'in yeni değeri 20 olmaktadır. X değerini main sınıfı içerisinde     değiştirebiliriz.
+    System.out.println("X'in değeri : "+myObj.x);
+}
+
+
+Mevcut değerlerin geçersiz kılınmasını istemiyorsanız özelliği "final" olarak bildirin:
+
+public class MyObj {
+    final int x = 5; //Bu söz diziminden sonra main metodu içerisinde X değeri değiştirilemez.
+}
+
+Final anahtar sözcüğü, bir değişkenin her zaman aynı değeri saklamasını istediğinizde kullanışlıdır (PI (3.14159...) gibi.

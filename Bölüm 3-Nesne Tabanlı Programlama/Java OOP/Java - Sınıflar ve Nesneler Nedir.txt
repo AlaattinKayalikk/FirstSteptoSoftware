@@ -1,0 +1,13 @@
+Java - Sınıflar ve Nesneler Nedir?
+
+Sınıflar ve nesneler, nesne yönelimli programlamanın iki ana yönüdür.
+
+Sınıflar ve nesneler arasındaki fark;
+
+-Class(Sınıf)-			-Object(Nesne)-
+  Meyveler			Elma,Muz,Kivi,Mango
+
+
+Yani bir sınıf nesneler için bir şablondur ve bir nesne de bir sınıfın örneğidir.
+
+Bireysel nesneler oluşturulduğunda, sınıftan tüm değişkenleri ve yöntemleri miras alırlar.

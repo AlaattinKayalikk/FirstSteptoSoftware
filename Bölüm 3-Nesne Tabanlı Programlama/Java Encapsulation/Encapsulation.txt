@@ -1,0 +1,29 @@
+Encapsulation
+
+Encapsulation anlamı 'hassas' verilerin kullanıcılardan gizlendiğinden emin olmaktır. Bunu başarmak için şunları yapmalısınız:
+
+
+-sınıf değişkenlerini/niteliklerini private olarak bildir
+-özel bir değişkenin değerine erişmek ve bu değeri güncellemek için get ve set yöntemleri sağlayın
+-Get yöntemi değişken değerini döndürür ve set yöntemi değeri ayarlar.
+-Her ikisinin de sözdizimi, get veya set ile başlamaları ve ardından ilk harfi büyük olacak şekilde değişkenin adının gelmesidir:
+
+Örnek ; 
+
+public class MyObj {
+    private String fname;
+    public String getFname() {
+        return fname;
+    }
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyObj myObj = new MyObj();
+        myObj.setFname("Merve");
+        System.out.println("Müşterinin adı : "+myObj.getFname());
+    }
+}

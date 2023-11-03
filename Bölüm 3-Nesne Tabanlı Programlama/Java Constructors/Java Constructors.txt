@@ -1,0 +1,23 @@
+Java Constructors
+
+Java'daki yapıcı, nesneleri başlatmak için kullanılan özel bir yöntemdir. Constructor, bir sınıfın nesnesi oluşturulduğunda çağrılır. Nesne niteliklerinin başlangıç ​​değerlerini ayarlamak için kullanılabilir:
+
+-Constructorlar sınıf adı ile aynı olmak zorundadır.
+	
+Constructor oluşturma : 
+
+public class MyObj {
+    int x = 5;
+    public MyObj(int y){
+        y = x;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyObj myObj = new MyObj(20);
+        System.out.println(myObj.x);
+    }
+}
+
+	

@@ -1,0 +1,49 @@
+Parametreler ve Bağımsız Değişkenler
+
+-Bilgiler parametre olarak methodlara aktarılabilir. Parametreler, methodun içindeki değişkenler gibi davranır.
+
+-Parametreler method adından sonra parantez içinde belirtilir. İstediğiniz kadar parametre ekleyebilirsiniz, sadece virgülle ayırın.
+
+Örnek;
+
+Public class Example{
+	public void myMethod(String adi){
+	System.out.println(adi + "Kayalık")
+}
+}
+
+public static void main(String args[]){
+	Example ex = new Example();
+	ex.myMethod("Alaattin");
+}
+
+-------------------------------------------------------------------------------------------
+Çoklu parametreler
+
+İstediğiniz kadar parametreye sahip olabilirsiniz:
+
+Örnek;
+
+public void multipleParameters(String isim, int yas){
+        System.out.println(isim + " + " +yas);
+}
+
+public static void main(String args[]){
+	Example ex = new Example();
+	ex.multipleParameters("Alaattin",20);
+}
+-------------------------------------------------------------------------------------------
+
+Dönüş Değerleri
+Yukarıdaki örneklerde kullanılan void anahtar sözcüğü, methodun bir değer döndürmemesi gerektiğini belirtir. Methodun bir değer döndürmesini istiyorsanız void yerine ilkel bir veri türü (int, char vb. gibi) kullanabilir ve methodun içinde return anahtar sözcüğünü kullanabilirsiniz:
+
+Örnek; 
+    public int yas(int yas){
+        return yas+20;
+    }
+    public static void main(String args[]){
+	Example ex = new Example();
+	System.out.println(ex.yas(50));
+    }
+
+
